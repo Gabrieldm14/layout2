@@ -1,6 +1,6 @@
 body{
     background-color: rgba(2, 34, 58, 1);
-    background-image: url(IMAGENES/fondolayout.jpg);
+    background-image: url(fondolayout.jpg);
     background-blend-mode: luminosity;
 }
 .nav-enlace{
