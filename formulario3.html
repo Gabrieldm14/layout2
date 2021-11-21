@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inscripcion</title>
+    <style >
+        p{color: black;}
+        h1{ color: rgb(0, 110, 255); 
+        }
+        legend {
+            color: rgb(0, 110, 255);
+        }
+        select, input {
+            margin-top: 5px;
+        }
+        label{
+            display: inline-block;
+            width: 180px;
+        }
+        .boton{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    </style>
+</head>
+<body style="background-color:rgb(238, 234, 12);">
+    <center><h1>Inscripcion concurso</h1></center>
+    
+    <img src="IMAGENES/language-levels.png"
+     width="700"
+     height="341">
+    
+    <fieldset><legend>Resumen</legend> 
+    <p>Se trata de un concurso de idiomas el que entre participara en el y obtendra una clase de pautas en el coreo que nos facilite
+         en el siguiente formulario y se realizara una encuesta entre los mejores y una prueba final para obtener el ganador con un premio
+        considerado y certificando el nivel con gastos incluidos.</p>
+    </fieldset>
+<fieldset><legend>Inscripcion</legend>
+<p>Nombre: <input type="text" name="nombre"></p>
+
+<p>Apellidos: <input type="text" name="apellidos" size="40"></p>
+
+<p>Nacionalidad: <input type="text" name="nacionalidad" size="20"></p>
+
+<p> Fecha: <input type="date" name="fecha"></p>
+
+<p> Hora: <input type="time" name="hora"></p>
+<p>
+<input type="radio" name="boton" value="hombre"> Hombre<br></p>
+<p><input type="radio" name="boton" value="mujer"> Mujer</p>
+<p>Idiomas
+    <select size="3">
+      <option>Español</option>
+      <option>Ingles</option>
+      <option>Frances</option>
+      <option>Aleman</option>
+    </select>
+</p>
+
+<p> Indique su nivel:
+<input type="range" name="rango"></p>
+
+<p>Indique por que quiere inscribirse</p>
+<textarea name="texto" rows="4" cols="40" placeholder="Escriba algo"></textarea>
+
+</fieldset>
+
+</body>
+</html>
